@@ -1,0 +1,48 @@
+form {
+    max-width: 50% !important;
+    display: flex !important;
+    gap: 15px;
+}
+button {
+    display: inline !important;
+    width: 300px !important;
+}
+.container {
+    margin-top: 40px !important;
+}
+
+article {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 30%;
+}
+
+article button {
+    width: 150px !important;
+    margin-inline: auto;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 90% !important;
+        flex-wrap: wrap;
+    }
+    form button {
+        width: 100% !important;
+    }
+    
+}
